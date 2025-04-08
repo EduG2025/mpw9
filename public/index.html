@@ -1,0 +1,56 @@
+<!-- html 404 -->
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>404</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="error-template">
+                    <h1>
+                        Oops!</h1>
+                    <h2>
+                       This is api whatsapp </h2>
+                    <div class="error-details">
+                        Sorry, an error has occured, Requested page not found!
+                    </div>
+                    <div class="error-actions">
+                        <a href="/" class="btn btn-primary btn-lg"><span class="fas fa-home"></span>
+                            Take Me Home </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</html>
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.3.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.3.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyCrjn6jBxLAi5yE4hB_tBxsmpnJE85lyjk",
+    authDomain: "cacaria-bae0a.firebaseapp.com",
+    projectId: "cacaria-bae0a",
+    storageBucket: "cacaria-bae0a.firebasestorage.app",
+    messagingSenderId: "635450972129",
+    appId: "1:635450972129:web:92f7c2097fe8dde5b864a0",
+    measurementId: "G-0XSH82GEWJ"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
